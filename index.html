@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Blackjack</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Blackjack</h2>
+        <h3><span id="play">Let's play</span></h3>
+
+        <div class="play-area">
+            <div class="your-box-class" id="your-box-id">
+                <h2>Your score: <span id="your-score-result">0</span></h2>
+            </div>
+    
+            <div class="bot-box-class" id="bot-box-id">
+                <h2>Bot Score: <span id="bot-score-result">0</span></h2>
+            </div>
+        </div>
+
+        <div class="button-area">
+            <div>
+                <button class="btn-lg btn-primary mr-2" id="blackjack-hit">Hit</button>
+                <button class="btn-lg btn-danger mr-2" id="blackjack-stand">Stand</button>
+                <button class="btn-lg btn-warning mr-2" id="blackjack-deal">Deal</button>
+            </div>
+        </div>
+
+        <div class="score-area">
+            <table>
+                <tr>
+                    <th>Win</th>
+                    <th>Draw</th>
+                    <th>Lose</th>
+                </tr>
+                <tr>
+                    <td><span id="win-score">0</span></td>
+                    <td><span id = "draw-score">0</span></td>
+                    <td><span id="lose-score">0</span></td>
+                </tr>
+            </table>
+        </div>       
+    </div>
+    <!-- <img src="images/images/10.png" alt=""> -->
+    
+    <script src="js/black_jack.js"></script>
+    
+</body>
+</html>
